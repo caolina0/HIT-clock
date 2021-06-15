@@ -4,9 +4,9 @@ from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 
 print('初始化浏览器')
-USERNAME   = os.environ['ID']
-PASSWORD   = os.environ['PASSWORD']
-LOCATION   = os.environ['LOCATION']
+USERNAME   = os.environ['20S105159']
+PASSWORD   = os.environ['cao19920922']
+LOCATION   = os.environ['哈尔滨市南岗区']
 driver = None
 ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A403 MicroMessenger/6.3.27 NetType/WIFI Language/zh_CN'
 option = webdriver.ChromeOptions()
